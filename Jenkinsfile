@@ -17,6 +17,13 @@ pipeline {
             }
 
         }
+         stage ('Notifications'){
+            steps {
+                echo 'Notifications'
+                sh 'python3 --version'
+            }
+
+        }
 
 
     }

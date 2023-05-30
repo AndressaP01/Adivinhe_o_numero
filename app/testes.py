@@ -4,7 +4,7 @@ from app.sorteio import Sorteio
 
 
 class TestSorteio(unittest.TestCase):
-    def test_sorteio(self):
+    def test_sorteio1(self):
         sorteio=Sorteio()
         sorteio.sortear(89)
         self.assertEqual(1,1)
@@ -48,7 +48,7 @@ class TestSorteio(unittest.TestCase):
         sorteio.sortear(9000000)
         self.assertEqual(1, 0)
 
-    def test_sorteio2(self):
+    def test_sorteio10(self):
         sorteio = Sorteio()
         sorteio.sortear(600000)
         self.assertEqual(1, 0)
